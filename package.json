@@ -1,7 +1,7 @@
 {
   "name": "nuxtv3-bug",
   "author": "@chrisnoden",
-  "description": "Demonstrate NuxtLink bug with rc8",
+  "description": "Demonstrate NuxtLink bug",
   "engines": {
     "node": "16.x"
   },
