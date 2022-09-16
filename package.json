@@ -6,7 +6,8 @@
     "node": "16.x"
   },
   "scripts": {
-    "dev": "npx nuxi dev --https --ssl-cert localhost.pem --ssl-key localhost-key.pem"
+    "dev-localhost": "NODE_TLS_REJECT_UNAUTHORIZED=0 npx nuxi dev --https --ssl-cert localhost.pem --ssl-key localhost-key.pem",
+    "dev-custom": "NODE_TLS_REJECT_UNAUTHORIZED=0 npx nuxi dev --host nuxt.wip --https --ssl-cert nuxt.wip.pem --ssl-key nuxt.wip-key.pem"
   },
   "dependencies": {
     "nuxt": "^3.0.0-rc.10"

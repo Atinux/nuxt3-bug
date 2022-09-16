@@ -3,7 +3,7 @@
 
     <div style="min-height:100vh;">
         <main style="min-height:100vh;">
-            <NuxtPage style="min-height:100vh;" />
+            <NuxtPage />
         </main>
 
         <footer style="padding-top: 100px; display: flex; flex-direction: column;">
